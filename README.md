@@ -1,2 +1,1 @@
-# Leetcode Solutions
- Leetcode Solutions Hub
+# Leetcode Problems Solutions [JAVA]
