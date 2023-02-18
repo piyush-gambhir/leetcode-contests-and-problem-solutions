@@ -13,9 +13,9 @@ This repository contains Java solutions for various problems on LeetCode. Each s
 
 To use these solutions, you can simply download or clone this repository to your local machine. To clone the repository, run the following command in your terminal:
 
-<pre><code>```
+<pre><code>
 git clone https://github.com/Piyush-Gambhir/LeetCode-Problem-Solutions.git
-```</code></pre>
+</code></pre>
 
 ## Usage
 
