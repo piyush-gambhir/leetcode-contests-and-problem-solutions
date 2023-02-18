@@ -18,7 +18,7 @@ To use these solutions, you can simply download or clone this repository to your
 
 ## Usage
 
-Each solution is located in its own file and is named after the problem on LeetCode. To run the solution, simply open the file in your favorite Java IDE and run the `main` method. Alternatively, you can copy and paste the solution into the LeetCode editor and test it there.
+Each solution is located in its own file and is named after the problem on LeetCode. To run the solution, simply open the file in your favorite Java IDE and check out the solution. Alternatively, you can copy and paste the solution into the LeetCode editor and test it there.
 
 ## Contributing
 
