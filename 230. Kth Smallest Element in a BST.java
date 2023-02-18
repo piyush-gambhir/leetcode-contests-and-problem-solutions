@@ -20,6 +20,6 @@ Problem Link: https://leetcode.com/problems/kth-smallest-element-in-a-bst/
 
 class Solution {
     public int kthSmallest(TreeNode root, int k) {
-            
+        
     }
 }
