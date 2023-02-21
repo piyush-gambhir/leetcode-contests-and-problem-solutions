@@ -2,12 +2,12 @@
 
 This repository contains Java solutions for various problems on LeetCode. Each solution is written in Java and has been tested to ensure it passes all test cases on LeetCode.
 
-
 ## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
+- [List of Problems]
 
 ## Installation
 
@@ -23,3 +23,5 @@ Each solution is located in its own file and is named after the problem on LeetC
 ## Contributing
 
 If you would like to contribute to this repository, please fork the repository and create a new branch for your changes. Once you have made your changes, submit a pull request and your changes will be reviewed.
+
+## List of Problems
