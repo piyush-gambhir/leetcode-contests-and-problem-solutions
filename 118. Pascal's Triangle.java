@@ -9,7 +9,7 @@ class Solution {
         List<List<Integer>> result = new ArrayList<List<Integer>>();
         if (numRows == 0) {
             return result;
-        }   
+        }
         List<Integer> firstRow = new ArrayList<Integer>();
         firstRow.add(1);
         result.add(firstRow);
