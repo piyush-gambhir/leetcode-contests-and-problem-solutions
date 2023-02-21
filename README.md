@@ -25,3 +25,5 @@ Each solution is located in its own file and is named after the problem on LeetC
 If you would like to contribute to this repository, please fork the repository and create a new branch for your changes. Once you have made your changes, submit a pull request and your changes will be reviewed.
 
 ## List of Problems
+
+[2. Add Two Numbers](https://github.com/Piyush-Gambhir/LeetCode-Problem-Solutions/blob/main/2.%20Add%20Two%20Numbers.java)
