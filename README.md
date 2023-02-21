@@ -7,7 +7,7 @@ This repository contains Java solutions for various problems on LeetCode. Each s
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [List of Problems]
+- [List of Problems](#list-of-problems)
 
 ## Installation
 
