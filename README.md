@@ -35,7 +35,7 @@ If you would like to contribute to this repository, please fork the repository a
 [7. Reverse Integer](https://github.com/Piyush-Gambhir/LeetCode-Problem-Solutions/blob/main/7.%20Reverse%20Integer.java)<br>
 [8. String to Integer (atoi)](https://github.com/Piyush-Gambhir/LeetCode-Problem-Solutions/blob/main/8.%20String%20to%20Integer%20atoi).java)<br>
 [9. Palindrome Number](https://github.com/Piyush-Gambhir/LeetCode-Problem-Solutions/blob/main/9.%20Palindrome%20Number.java)<br>
-[10. Regular Expression Matching]https://github.com/Piyush-Gambhir/LeetCode-Problem-Solutions/blob/main/8.%20String%20to%20Integer%20(atoi).java)<br>
+[10. Regular Expression Matching](https://github.com/Piyush-Gambhir/LeetCode-Problem-Solutions/blob/main/8.%20String%20to%20Integer%20(atoi).java)<br>
 [11. Container With Most Water](https://github.com/Piyush-Gambhir/LeetCode-Problem-Solutions/blob/main/11.%20Container%20Water.java)<br>
 [12. Integer to Roman](https://github.com/Piyush-Gambhir/LeetCode-Problem-Solutions/blob/main/12.%20Integer%20to%20Roman.java)<br>
 [13. Roman to Integer](https://github.com/Piyush-Gambhir/LeetCode-Problem-Solutions/blob/main/13.%20Roman%20to%20Integer.java)<br>
