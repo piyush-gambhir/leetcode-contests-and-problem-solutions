@@ -6,28 +6,35 @@ import java.util.*;
 
 class MyQueue {
 
+    Stack<Integer> stack1 = new Stack<>();
+    Stack<Integer> stack2 = new Stack<>();
+
     public MyQueue() {
-        int rear = -1;
-        int front = -1;
-        
+
     }
 
     public void push(int x) {
-        if (rear == -1) {
+        while(!stack1.isEmpty()) {
+            stack2.push(stack1.pop());
+        }
 
+        stack1.push(x);
+
+        while(!stack2.isEmpty()) {
+            stack1.push(stack2.pop());
         }
     }
 
     public int pop() {
-
+        return stack1.pop();
     }
 
     public int peek() {
-
+        return stack1.peek();
     }
 
     public boolean empty() {
-
+        return stack1.isEmpty() && stack2.isEmpty();
     }
 }
 
