@@ -1,5 +1,5 @@
 /*
-Problem Link: https://leetcode.com/problems/path-sum/
+Problem Link: https://leetcode.com/problems/search-in-a-binary-search-tree/
 */
 
 /**
@@ -21,13 +21,17 @@ Problem Link: https://leetcode.com/problems/path-sum/
 import java.util.*;
 
 class Solution {
-    public boolean hasPathSum(TreeNode root, int targetSum) {
+    public TreeNode searchBST(TreeNode root, int val) {
         if (root == null) {
-            return false;
+            return null;
         }
-        if (root.left == null && root.right == null && root.val == targetSum) {
-            return true;
+        if (root.val == val) {
+            return root;
         }
-        return hasPathSum(root.left, targetSum - root.val) || hasPathSum(root.right, targetSum - root.val);
+
+        if (root.val < val) {
+            return searchBST(root.right, val);
+        }
+        return searchBST(root.left, val);
     }
 }
