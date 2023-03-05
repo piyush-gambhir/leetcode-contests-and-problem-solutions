@@ -6,3 +6,4 @@ FROM Users, Rides
 WHERE Users.id = Rides.user_id
 GROUP BY Users.name
 ORDER BY travelled_distance DESC, name ASC;
+
