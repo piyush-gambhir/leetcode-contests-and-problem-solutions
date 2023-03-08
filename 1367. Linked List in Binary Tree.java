@@ -12,6 +12,7 @@ Problem Link: https://leetcode.com/problems/linked-list-in-binary-tree/
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -31,6 +32,18 @@ Problem Link: https://leetcode.com/problems/linked-list-in-binary-tree/
 import java.util.*;
 
 class Solution {
+    public boolean dfs(ListNode head, TreeNode root) {
+        if (head == null) {
+            return true;
+        }
+        if (root == null) {
+            return false;
+        }
+        if (head.val != root.val) {
+            return false;
+        }
+        return dfs(head.next, root.left) || dfs(head.next, root.right);
+    }
 
     public boolean isSubPath(ListNode head, TreeNode root) {
         if (head == null) {
@@ -39,13 +52,6 @@ class Solution {
         if (root == null) {
             return false;
         }
-        boolean ans = false;
-        if (root.val == head.val) {
-            ans = isSubPath(head.next, root.left) || isSubPath(head.next, root.right);
-        }
-        if (ans) {
-            return true;
-        }
-        return isSubPath(head, root.left) || isSubPath(head, root.right);
+        return dfs(head, root) || isSubPath(head, root.left) || isSubPath(head, root.right);
     }
 }
