@@ -1,5 +1,5 @@
 /*
-Problem Link: https://leetcode.com/problems/evaluate-boolean-binary-tree/
+Problem Link: https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/
 */
 
 /**
@@ -21,8 +21,7 @@ Problem Link: https://leetcode.com/problems/evaluate-boolean-binary-tree/
 import java.util.*;
 
 class Solution {
-
-    public boolean evaluateTree(TreeNode root) {
+    public TreeNode bstToGst(TreeNode root) {
         
     }
 }
