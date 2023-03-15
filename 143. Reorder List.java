@@ -16,36 +16,45 @@ Problem Link: https://leetcode.com/problems/reorder-list/
 import java.util.*;
 
 class Solution {
-
-    private void reverse(ListNode head) {
+    private ListNode reverse(ListNode head) {
         ListNode prev = null;
         ListNode curr = head;
+        ListNode next = null;
         while (curr != null) {
-            ListNode temp = curr.next;
+            next = curr.next;
             curr.next = prev;
             prev = curr;
-            curr = temp;
+            curr = next;
         }
+        return prev;
     }
 
     public void reorderList(ListNode head) {
-        if (head == null || head.next == null)
+        if (head == null || head.next == null) {
             return;
-        ListNode slow = head, fast = head;
+        }
+
+        ListNode slow = head;
+        ListNode fast = head;
+
         while (fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;
         }
-        ListNode head2 = slow.next;
+
+        ListNode head2 = reverse(slow.next);
         slow.next = null;
-        head2 = reverse(head2);
-        ListNode curr = head;
-        while (head2 != null) {
-            ListNode temp = head2.next;
-            head2.next = curr.next;
-            curr.next = head2;
-            curr = curr.next.next;
-            head2 = temp;
+
+        ListNode currentNode = head;
+
+        while (currentNode != null && head2 != null) {
+            ListNode temp = currentNode.next;
+            ListNode temp2 = head2.next;
+            currentNode.next = head2;
+            head2.next = temp;
+            currentNode = temp;
+            head2 = temp2;
         }
+
     }
 }
