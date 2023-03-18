@@ -22,6 +22,6 @@ import java.util.*;
 
 class Solution {
     public int diameterOfBinaryTree(TreeNode root) {
-        
+
     }
 }
