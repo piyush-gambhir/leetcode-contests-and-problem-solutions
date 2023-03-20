@@ -2,6 +2,8 @@
 Problem Link: https://leetcode.com/problems/multiply-strings/
 */
 
+import java.util.*;
+
 class Solution {
     public String multiply(String num1, String num2) {
         int m = num1.length();
@@ -20,13 +22,12 @@ class Solution {
             }
         }
 
-        StringBuilder sb = new StringBuilder();
+        String result = "";
         for (int p : pos) {
-            if (!(sb.length() == 0 && p == 0)) {
-                sb.append(p);
+            if (!(result.length() == 0 && p == 0)) {
+                result += p;
             }
         }
-
-        return sb.length() == 0 ? "0" : sb.toString();
+        return result.length() == 0 ? "0" : result;
     }
 }

@@ -21,17 +21,30 @@ Problem Link: https://leetcode.com/problems/binary-search-tree-iterator/
 import java.util.*;
 
 class BSTIterator {
+    Stack<TreeNode> stack;
 
     public BSTIterator(TreeNode root) {
-        
+        stack = new Stack<>();
+        pushLeftSubtree(root);
     }
 
     public int next() {
-
+        TreeNode result = stack.pop();
+        pushLeftSubtree(result.right);
+        return result.val;
     }
 
     public boolean hasNext() {
-        
+        return !stack.isEmpty();
+    }
+
+    public void pushLeftSubtree(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+
+        stack.push(root);
+        pushLeftSubtree(root.left);
     }
 }
 
