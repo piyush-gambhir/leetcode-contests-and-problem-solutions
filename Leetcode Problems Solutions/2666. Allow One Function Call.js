@@ -8,7 +8,11 @@ Problem Link: https://leetcode.com/problems/allow-one-function-call/
  */
 var once = function (fn) {
   return function (...args) {
-
+    if (fn) {
+      let result = fn(...args);
+      fn = null;
+      return result;
+    }
   };
 };
 
