@@ -4,8 +4,8 @@ Problem Link: https://leetcode.com/problems/debounce/
 
 /**
  * @param {Function} fn
- * @param {number} t
- * @return {Function}
+ * @param {number} t 
+ * @return {Function} 
  */
 var debounce = function (fn, t) {
   let timeoutId;
