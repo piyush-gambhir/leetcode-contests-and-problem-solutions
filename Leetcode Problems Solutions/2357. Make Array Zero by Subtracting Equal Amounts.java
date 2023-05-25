@@ -6,7 +6,6 @@ import java.util.*;
 
 class Solution {
     public int minimumOperations(int[] nums) {
-        PriorityQueue<Integer> pq = new PriorityQueue<>();
 
     }
 }
