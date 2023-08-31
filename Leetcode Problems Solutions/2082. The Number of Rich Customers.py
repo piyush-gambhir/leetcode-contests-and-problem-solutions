@@ -1,3 +1,7 @@
+"""
+Problem Link: https://leetcode.com/problems/the-number-of-rich-customers/
+"""
+
 import pandas as pd
 
 
