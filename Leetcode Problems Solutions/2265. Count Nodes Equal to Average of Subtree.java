@@ -25,7 +25,7 @@ class Solution {
         int[] result = new int[1];
         traverse(root, result);
         return result[0];
-    }
+    }   
 
     private int[] traverse(TreeNode node, int[] result) {
         if (node == null)
