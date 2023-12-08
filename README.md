@@ -1,25 +1,18 @@
 # Leetcode Problems Solutions
+This repository contains my solutions to contests and problems on LeetCode.
 
-This repository contains solutions for various problems on LeetCode. Each solution is written in Java/C++/Python and has been tested to ensure it passes all test cases on LeetCode. The repository also contains solutions to the sql problems on LeetCode.
+## What you can find here:
+- Solutions to LeetCode contests, including weekly contests and bi-weekly contests.
+- Solutions to individual LeetCode problems.
+- Code written in various programming languages, including Python, Java, and C++.
 
-## Table of Contents
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [List of Problems](#list-of-problems)
+## Getting started:
 
-## Installation
+1. Clone this repository to your local machine.
+2. Use the git pull command to stay up-to-date with the latest changes.
+3. Navigate to the directory containing the contest or problem you're interested in.
+4. Open the solution file and review the code.
 
-To use these solutions, you can simply download or clone this repository to your local machine. To clone the repository, run the following command in your terminal:
 
-<pre><code> git clone https://github.com/Piyush-Gambhir/LeetCode-Problem-Solutions.git
-</code></pre>
-
-## Usage
-
-Each solution is located in its own file and is named after the problem on LeetCode. To run the solution, simply open the file in your favorite Java IDE and check out the solution. Alternatively, you can copy and paste the solution into the LeetCode editor and test it there.
-
-## Contributing
-
-If you would like to contribute to this repository, please fork the repository and create a new branch for your changes. Once you have made your changes, submit a pull request and your changes will be reviewed.
+Feel free to ask questions or leave comments in the issues section.
