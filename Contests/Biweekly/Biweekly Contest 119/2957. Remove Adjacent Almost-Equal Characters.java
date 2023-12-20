@@ -1,3 +1,7 @@
+/*
+Problem Link: https://leetcode.com/contest/biweekly-contest-119/problems/remove-adjacent-almost-equal-characters/
+*/
+
 import java.util.*;
 
 class Solution {
@@ -13,15 +17,15 @@ class Solution {
 
     public int removeAlmostEqualCharacters(String word) {
         int n = word.length();
-        int cnt = 0;
+        int count = 0;
         int i = 0;
         while (i < n - 1) {
             if (isAdjacent(word.charAt(i), word.charAt(i + 1))) {
-                cnt++;
+                count++;
                 i++;
             }
             i++;
         }
-        return cnt;
+        return count;
     }
 }
