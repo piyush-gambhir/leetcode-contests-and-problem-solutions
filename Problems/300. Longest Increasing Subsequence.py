@@ -1,6 +1,8 @@
 """
 Problem Link: Problem Link: https://leetcode.com/problems/longest-increasing-subsequence/
 """
+
+
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
         dp = [1] * len(nums)
