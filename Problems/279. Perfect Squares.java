@@ -2,6 +2,8 @@
 Problem Link: https://leetcode.com/problems/perfect-squares/
 */
 
+import java.util.*;
+
 class Solution {
     public int numSquares(int n) {
         int[] dp = new int[n + 1];
